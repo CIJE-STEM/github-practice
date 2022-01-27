@@ -12,7 +12,7 @@ class printer_class:
         self.default_message="Pleaes change this default message."
 
     def printer(self,message=''):
-        if message == '':
+        if message != '':
             print(message)
         else: 
             print(self.default_message)
